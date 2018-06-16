@@ -1,0 +1,14 @@
+[package]
+name = "unhygienic-impl"
+version = "0.1.0"
+authors = ["Lymia Aluysia <lymia@lymiahugs.com>"]
+
+description = "The proc macro used by unhygienic."
+
+license = "MIT/Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro-hack = "0.4"
